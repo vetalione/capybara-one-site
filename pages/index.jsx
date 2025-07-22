@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import { Card, CardContent } from '@/components/ui/card'
 
 export default function Home() {
   return (
@@ -15,57 +14,41 @@ export default function Home() {
         </p>
       </header>
 
-      // CASES SECTION
+      {/* CASES SECTION */}
 
       <section id="cases" className="mb-24">
         <h2 className="text-4xl glitch text-cyan-300 mb-8" data-text="$&">📊 Proven Campaign Results</h2>
         <div className="grid md:grid-cols-2 gap-8">
-          <Card className="bg-zinc-900 border border-cyan-400">
-            <CardContent className="p-6">
-              <h3 className="text-xl text-cyan-300 mb-2">$1M TVL NFT Collection</h3>
-              <p className="text-zinc-400">Full-stack launch campaign: liquidity design, community pre-hype, and KOL push (Pontem).</p>
-            </CardContent>
-          </Card>
-          <Card className="bg-zinc-900 border border-pink-400">
-            <CardContent className="p-6">
-              <h3 className="text-xl text-pink-300 mb-2">7,000 NFTs in 22 Minutes</h3>
-              <p className="text-zinc-400">Sold out via influencer-driven mint strategy, KOL blast, and exclusive whitelist (Jade).</p>
-            </CardContent>
-          </Card>
-          <Card className="bg-zinc-900 border border-green-400">
-            <CardContent className="p-6">
-              <h3 className="text-xl text-green-300 mb-2">$4M Raised in 6 Months</h3>
-              <p className="text-zinc-400">Lifecycle token sale with funnel marketing, investor content, and AMA reach (CryptoIndex).</p>
-            </CardContent>
-          </Card>
-          <Card className="bg-zinc-900 border border-red-400">
-            <CardContent className="p-6">
-              <h3 className="text-xl text-red-300 mb-2">10x ROI Meme Coin Promo</h3>
-              <p className="text-zinc-400">Narrative-driven influencer activations and perfect-timing entry execution (Phill).</p>
-            </CardContent>
-          </Card>
-          <Card className="bg-zinc-900 border border-yellow-400">
-            <CardContent className="p-6">
-              <h3 className="text-xl text-yellow-300 mb-2">Full GTM Strategy ($300K)</h3>
-              <p className="text-zinc-400">6-month funnel plan: 90K followers, 50K testers, $80K nodes, $100K tokens, $150K via KOLs.</p>
-            </CardContent>
-          </Card>
-          <Card className="bg-zinc-900 border border-purple-400">
-            <CardContent className="p-6">
-              <h3 className="text-xl text-purple-300 mb-2">300K Telegram Users</h3>
-              <p className="text-zinc-400">$0.20 CAC, 85% retention, 10% engagement rate using gamified invites (Grace).</p>
-            </CardContent>
-          </Card>
-          <Card className="bg-zinc-900 border border-fuchsia-400">
-            <CardContent className="p-6">
-              <h3 className="text-xl text-fuchsia-300 mb-2">AI Growth Automation</h3>
-              <p className="text-zinc-400">200–300 replies/day via AI agent, 100K daily views, +100 followers/day (CryptoIndex).</p>
-            </CardContent>
-          </Card>
+          <div className="bg-zinc-900 border border-cyan-400 rounded-lg p-6">
+            <h3 className="text-xl text-cyan-300 mb-2">$1M TVL NFT Collection</h3>
+            <p className="text-zinc-400">Full-stack launch campaign: liquidity design, community pre-hype, and KOL push (Pontem).</p>
+          </div>
+          <div className="bg-zinc-900 border border-pink-400 rounded-lg p-6">
+            <h3 className="text-xl text-pink-300 mb-2">7,000 NFTs in 22 Minutes</h3>
+            <p className="text-zinc-400">Sold out via influencer-driven mint strategy, KOL blast, and exclusive whitelist (Jade).</p>
+          </div>
+          <div className="bg-zinc-900 border border-green-400 rounded-lg p-6">
+            <h3 className="text-xl text-green-300 mb-2">$4M Raised in 6 Months</h3>
+            <p className="text-zinc-400">Lifecycle token sale with funnel marketing, investor content, and AMA reach (CryptoIndex).</p>
+          </div>
+          <div className="bg-zinc-900 border border-red-400 rounded-lg p-6">
+            <h3 className="text-xl text-red-300 mb-2">10x ROI Meme Coin Promo</h3>
+            <p className="text-zinc-400">Narrative-driven influencer activations and perfect-timing entry execution (Phill).</p>
+          </div>
+          <div className="bg-zinc-900 border border-yellow-400 rounded-lg p-6">
+            <h3 className="text-xl text-yellow-300 mb-2">Full GTM Strategy ($300K)</h3>
+            <p className="text-zinc-400">6-month funnel plan: 90K followers, 50K testers, $80K nodes, $100K tokens, $150K via KOLs.</p>
+          </div>
+          <div className="bg-zinc-900 border border-purple-400 rounded-lg p-6">
+            <h3 className="text-xl text-purple-300 mb-2">300K Telegram Users</h3>
+            <p className="text-zinc-400">$0.20 CAC, 85% retention, 10% engagement rate using gamified invites (Grace).</p>
+          </div>
+          <div className="bg-zinc-900 border border-fuchsia-400 rounded-lg p-6">
+            <h3 className="text-xl text-fuchsia-300 mb-2">AI Growth Automation</h3>
+            <p className="text-zinc-400">200–300 replies/day via AI agent, 100K daily views, +100 followers/day (CryptoIndex).</p>
+          </div>
         </div>
       </section>
-
-      // Остальные секции уже присутствуют и обновлены.
 
       <style jsx>{`
         .glitch {
