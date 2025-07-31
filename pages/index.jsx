@@ -106,6 +106,20 @@ export default function Home() {
           <li>Lower risk, higher ROI — we adapt fast, bring outside perspective, and deliver results.</li>
         </ul>
       </div>
+      {/* Contact Section */}
+      <div className="max-w-4xl mx-auto text-center">
+        <h2 className="text-3xl font-bold text-cyan-300 mb-4">Contact Us for a Personal Offer</h2>
+        <p className="text-zinc-400 text-sm mb-4">Let’s build something amazing together. Reach out for a custom growth strategy crafted just for you.</p>
+        <a href="https://t.me/vetalsmirnov" target="_blank" rel="noopener noreferrer">
+          <button className="bg-cyan-500 hover:bg-cyan-400 text-black font-semibold py-2 px-6 rounded-full text-lg transition duration-300">
+            Let's Launch Together 🚀
+          </button>
+        </a>
+      </div>
     </div>
+    
+
+
+
   )
 }
