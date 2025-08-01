@@ -1,8 +1,8 @@
 export default function Home() {
   return (
-    <div className="bg-black min-h-screen text-white px-8 py-12">
-      <h1 className="text-4xl font-bold text-center text-cyan-400 mb-8">Capybara.one</h1>
-      <p className="text-center mb-10 max-w-2xl mx-auto text-lg">
+    <div className="bg-black min-h-screen text-white px-8 py-12 font-mono">
+      <h1 className="text-4xl font-bold text-center text-cyan-400 mb-8 animate-glitch">Capybara.one</h1>
+      <p className="text-center mb-10 max-w-2xl mx-auto text-lg text-zinc-300 animate-flicker">
         Full-cycle Web3 marketing, community growth, and hype engineering. From presale sellouts to ambassador armies.
       </p>
 
@@ -106,20 +106,17 @@ export default function Home() {
           <li>Lower risk, higher ROI — we adapt fast, bring outside perspective, and deliver results.</li>
         </ul>
       </div>
+
       {/* Contact Section */}
       <div className="max-w-4xl mx-auto text-center">
         <h2 className="text-3xl font-bold text-cyan-300 mb-4">Contact Us for a Personal Offer</h2>
         <p className="text-zinc-400 text-sm mb-4">Let’s build something amazing together. Reach out for a custom growth strategy crafted just for you.</p>
         <a href="https://t.me/vetalsmirnov" target="_blank" rel="noopener noreferrer">
-          <button className="bg-cyan-500 hover:bg-cyan-400 text-black font-semibold py-2 px-6 rounded-full text-lg transition duration-300">
+          <button className="bg-glitchGreen hover:bg-cyan-400 text-black font-semibold py-2 px-6 rounded-full text-lg transition duration-300 animate-glitch">
             Let's Launch Together 🚀
           </button>
         </a>
       </div>
     </div>
-    
-
-
-
   )
 }
