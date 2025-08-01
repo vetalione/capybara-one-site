@@ -1,6 +1,10 @@
+import Image from 'next/image';
+import capy from '../public/capy-glitch.png';
+
 export default function Home() {
   return (
-    <div className="bg-black min-h-screen text-white px-8 py-12 font-mono">
+    <div className="bg-black min-h-screen text-white px-8 py-12 font-mono relative overflow-hidden">
+      <Image src={capy} alt="Capybara" className="glitch-capybara" />
       <h1 className="text-4xl font-bold text-center text-cyan-400 mb-8 animate-glitch">Capybara.one</h1>
       <p className="text-center mb-10 max-w-2xl mx-auto text-lg text-zinc-300 animate-flicker">
         Full-cycle Web3 marketing, community growth, and hype engineering. From presale sellouts to ambassador armies.
